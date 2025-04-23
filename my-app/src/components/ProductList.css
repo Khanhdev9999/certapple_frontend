@@ -1,0 +1,17 @@
+.product-list-section {
+    padding: 40px 20px;
+    background-color: #fafafa;
+    text-align: center;
+  }
+  
+  .product-list-section h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  
